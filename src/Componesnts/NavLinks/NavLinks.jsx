@@ -15,24 +15,26 @@ const NavLinks = ({
   backgroundColor,
   margin
 }) => (
-  <NavLink
-    to={url}
-    className={className}
-    style={{
-      textDecoration: textDecoration ? textDecoration : "none",
-      color: color ? color : "#fff",
-      textTransform: textTransform ? textTransform : null,
-      borderRadius: borderRadius ? borderRadius : null,
-      padding: padding ? padding : null,
-      backgroundColor: backgroundColor ? backgroundColor : null,
-      border: border ? border : null,
-      width: width ? width : null,
-      height: height ? height : null,
-      margin: margin ? margin : null
-    }}
-  >
-    {text ? text : "am here to navigate"}
-  </NavLink>
+  <div>
+    <NavLink
+      to={url}
+      className={className}
+      style={{
+        textDecoration: textDecoration ? textDecoration : "none",
+        color: color ? color : "#000",
+        textTransform: textTransform ? textTransform : null,
+        borderRadius: borderRadius ? borderRadius : null,
+        padding: padding ? padding : null,
+        backgroundColor: backgroundColor ? backgroundColor : null,
+        border: border ? border : null,
+        width: width ? width : null,
+        height: height ? height : null,
+        margin: margin ? margin : null
+      }}
+    >
+      {text ? text : "am here to navigate"}
+    </NavLink>
+  </div>
 );
 
 export default NavLinks;
