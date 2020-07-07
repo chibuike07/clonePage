@@ -1,15 +1,11 @@
 import React from "react";
-import Image from "../Assets/studL1.png";
 import CustomBotton from "../Componesnts/Button/Button";
+import Styles from "./Styles/SecondSection.module.css";
 const SecondSection = () => {
+  const { sectionCont, wrapper } = Styles;
   return (
-    <div>
-      <div>
-        <CustomBotton text={"get started"} />
-        <div>
-          <img src={Image} alt={"a lady"} />
-        </div>
-      </div>
+    <div className={sectionCont}>
+      <CustomBotton text={"Get Started"} />
     </div>
   );
 };

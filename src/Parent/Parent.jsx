@@ -1,13 +1,21 @@
 import React from "react";
 import HeaderView from "../Componesnts/Header/Header";
-import SectionText from "../";
+import SectionText from "../Divisons/SectionText";
 import FooterSection from "../Divisons/FooterSection";
 import SeconSection from "../Divisons/SecondSection";
 import CustomButton from "../Componesnts/Button/Button";
 import CustomNav from "../Componesnts/NavLinks/NavLinks";
+import Image from "../Assets/studL1.png";
 import Styles from "./Parent.module.css";
 const Parent = () => {
-  const { appContainer, header, regWrapper } = Styles;
+  const {
+    appContainer,
+    header,
+    regWrapper,
+    sectionDiv,
+    image,
+    bigImg
+  } = Styles;
   return (
     <div className={appContainer}>
       <div className={header}>
@@ -27,8 +35,17 @@ const Parent = () => {
           />
         </div>
       </div>
-      <div>
-        <SeconSection />
+
+      <div className={sectionDiv}>
+        <SectionText />
+        <div className={image}>
+          <img src={Image} alt={"lady"} />
+        </div>
+        <div>
+          <div className={bigImg}>
+            <img src={Image} alt={"lady"} />
+          </div>
+        </div>
       </div>
     </div>
   );

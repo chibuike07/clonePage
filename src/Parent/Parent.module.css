@@ -6,7 +6,6 @@
 
 .header {
   display: flex;
-  justify-content: space-between;
   width: 100%;
 }
 .regWrapper {
@@ -16,4 +15,43 @@
   height: 10vh;
   justify-content: center;
   align-items: center;
+}
+
+.sectionDiv {
+  display: flex;
+  width: 70%;
+  margin-top: 7vh;
+}
+
+.image {
+  display: flex;
+  position: absolute;
+  left: 48vw;
+  z-index: 3;
+  justify-content: space-between;
+  width: 18%;
+}
+
+.image img {
+  width: 230px;
+  height: 30vh;
+  background-color: #eeefae;
+  border-radius: 20px;
+}
+
+.bigImg {
+  position: absolute;
+  left: 70vw;
+  top: 12vh;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.bigImg img {
+  background-color: #eeefae;
+  border-radius: 30px;
+  border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  width: 30vw;
+  height: 35vh;
 }

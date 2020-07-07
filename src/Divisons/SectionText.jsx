@@ -1,27 +1,41 @@
 import React from "react";
-
-function SectionText() {
+import SectionTextStyle from "./Styles/SectionText.module.css";
+import CustomBottom from "../Componesnts/Button/Button";
+const SectionText = () => {
+  const { container, wrapper, section, lorem, button } = SectionTextStyle;
   return (
-    <div>
-      <div>
-        <section>
-          <p>
-            find a technical and non-technical <a href="/">co-founder</a> for
-            your startup, iddea or existing business
-          </p>
+    <div className={container}>
+      <div className={wrapper}>
+        <section className={section}>
+          <strong>Find a technical and non-technical</strong>
+          <br />
+          <strong style={{ fontSize: "26.4px" }}>
+            <a href="/">co-founder</a> for your startup, idea or{" "}
+          </strong>
+          <br />
+
+          <strong>existing business</strong>
         </section>
-        <br />
-        <div>
+
+        <div className={lorem}>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
             assumenda fuga id placeat natus sint accusamus? Sint eos consectetur
-            totam odit illo nihil vero laudantium repellendus commodi eum, vitae
-            cupiditate?
+            totam odit accusamus? Sint
           </p>
+        </div>
+        <div className={button}>
+          <CustomBottom
+            text={"Get Started"}
+            width={"120px"}
+            borderRadius={"5px"}
+            backgroundColor={"rgb(22, 126, 238)"}
+            color={"rgb(187, 211, 236)"}
+          />
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default SectionText;
