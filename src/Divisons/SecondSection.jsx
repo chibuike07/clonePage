@@ -7,7 +7,7 @@ const SecondSection = () => {
       <div>
         <CustomBotton text={"get started"} />
         <div>
-          <Image />
+          <img src={Image} alt={"a lady"} />
         </div>
       </div>
     </div>
