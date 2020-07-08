@@ -55,3 +55,34 @@
   width: 30vw;
   height: 35vh;
 }
+
+.thirdSection {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+}
+.splashImage::before {
+  content: "";
+  width: 10px;
+  height: 0px;
+  position: absolute;
+  top: 65vh;
+  right: 13px;
+  border-color: transparent blue transparent transparent;
+  border-style: solid;
+  border-width: 0px 200px 200px 20px;
+  transform: rotate(90deg);
+}
+.splashImage {
+  width: 53%;
+  /* background-color: red; */
+}
+.splashImage img {
+  width: 95%;
+  height: 50vh;
+  display: flex;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 40px;
+  background-color: #eeefae;
+}

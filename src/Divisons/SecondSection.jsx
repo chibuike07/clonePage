@@ -2,10 +2,17 @@ import React from "react";
 import CustomBotton from "../Componesnts/Button/Button";
 import Styles from "./Styles/SecondSection.module.css";
 const SecondSection = () => {
-  const { sectionCont, wrapper } = Styles;
+  const { sectionCont } = Styles;
   return (
     <div className={sectionCont}>
-      <CustomBotton text={"Get Started"} />
+      <CustomBotton
+        text={"Get Started"}
+        width={"10vw"}
+        backgroundColor={"rgb(21, 125, 236)"}
+        borderRadius={"10px"}
+        color={"rgb(187, 211, 236)"}
+        margin={"0 0 0 6.4vw"}
+      />
     </div>
   );
 };

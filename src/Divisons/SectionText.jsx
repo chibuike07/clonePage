@@ -2,7 +2,7 @@ import React from "react";
 import SectionTextStyle from "./Styles/SectionText.module.css";
 import CustomBottom from "../Componesnts/Button/Button";
 const SectionText = () => {
-  const { container, wrapper, section, lorem, button } = SectionTextStyle;
+  const { container, wrapper, section, lorem } = SectionTextStyle;
   return (
     <div className={container}>
       <div className={wrapper}>
@@ -23,15 +23,6 @@ const SectionText = () => {
             assumenda fuga id placeat natus sint accusamus? Sint eos consectetur
             totam odit accusamus? Sint
           </p>
-        </div>
-        <div className={button}>
-          <CustomBottom
-            text={"Get Started"}
-            width={"120px"}
-            borderRadius={"5px"}
-            backgroundColor={"rgb(22, 126, 238)"}
-            color={"rgb(187, 211, 236)"}
-          />
         </div>
       </div>
     </div>

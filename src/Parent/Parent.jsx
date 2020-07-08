@@ -4,7 +4,6 @@ import SectionText from "../Divisons/SectionText";
 import FooterSection from "../Divisons/FooterSection";
 import SeconSection from "../Divisons/SecondSection";
 import CustomButton from "../Componesnts/Button/Button";
-import CustomNav from "../Componesnts/NavLinks/NavLinks";
 import Image from "../Assets/studL1.png";
 import Styles from "./Parent.module.css";
 const Parent = () => {
@@ -15,7 +14,8 @@ const Parent = () => {
     sectionDiv,
     image,
     bigImg,
-    splashImage
+    splashImage,
+    thirdSection
   } = Styles;
   return (
     <div className={appContainer}>
@@ -49,8 +49,15 @@ const Parent = () => {
           </div>
         </div>
       </div>
-      <div className={splashImage}>
-        <img src={Image} alt={Image} />
+      <div className={thirdSection}>
+        <SeconSection />
+        <div className={splashImage}>
+          <img src={Image} alt={Image} />
+        </div>
+      </div>
+
+      <div style={{ marginTop: "5em" }}>
+        <FooterSection />
       </div>
     </div>
   );
