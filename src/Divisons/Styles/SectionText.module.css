@@ -1,12 +1,11 @@
 .container {
-  width: 70%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
 }
 .wrapper {
-  /* background-color: blue; */
   width: 80%;
   margin-left: 25px;
   box-sizing: border-box;

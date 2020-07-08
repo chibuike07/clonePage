@@ -7,9 +7,9 @@ const SecondSection = () => {
     <div className={sectionCont}>
       <CustomBotton
         text={"Get Started"}
-        width={"10vw"}
+        width={"12vw"}
         backgroundColor={"rgb(21, 125, 236)"}
-        borderRadius={"10px"}
+        borderRadius={"5px"}
         color={"rgb(187, 211, 236)"}
         margin={"0 0 0 6.4vw"}
       />

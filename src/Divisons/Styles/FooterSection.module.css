@@ -1,6 +1,5 @@
 .container {
   width: 100%;
-  height: 40vh;
 }
 
 .wrapper {
@@ -22,8 +21,8 @@
   width: 220px;
   background-color: blue;
   border-radius: 25px;
-  height: 30vh;
-  transform: translate(-15%, -1%);
+  height: 40vh;
+  transform: translate(-15%, -10%);
   margin-top: 40px;
 }
 .B {
@@ -33,7 +32,7 @@
   height: 25vh;
   display: flex;
   align-items: baseline;
-  transform: translate(-5%, 20%);
+  transform: translate(-5%, 40%);
   margin-top: 40px;
 }
 .divC::before {
@@ -45,8 +44,8 @@
   right: 13px;
   border-color: blue transparent transparent transparent;
   border-style: solid;
-  border-width: 350px 150px 200px 200px;
-  transform: translate(-70%, 13%);
+  border-width: 350px 130px 200px 200px;
+  transform: translate(-100%, 10%);
   border-radius: 10%;
 }
 .divC {
@@ -54,14 +53,29 @@
 }
 
 .C {
-  transform: translate(-45%, 55%);
+  transform: translate(-60%, 55%);
   border-top-right-radius: 20px;
   border-bottom-right-radius: 900px;
   width: 70%;
 }
 aside {
   width: 60%;
+  margin-top: -6em;
 }
 .asidecont {
   width: 65%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.asidecont strong {
+  color: rgb(22, 47, 68);
+  font-size: 20px;
+}
+.asidecont p {
+  font-size: 10px;
+  opacity: 0.7;
+  width: 25em;
+}
+.asidecont h4 {
+  font-size: 13px;
+  color: rgb(17, 28, 99);
 }

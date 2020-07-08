@@ -15,7 +15,8 @@ const Parent = () => {
     image,
     bigImg,
     splashImage,
-    thirdSection
+    thirdSection,
+    footerCont
   } = Styles;
   return (
     <div className={appContainer}>
@@ -39,7 +40,6 @@ const Parent = () => {
 
       <div className={sectionDiv}>
         <SectionText />
-
         <div className={image}>
           <img src={Image} alt={"lady"} />
         </div>
@@ -56,7 +56,7 @@ const Parent = () => {
         </div>
       </div>
 
-      <div style={{ marginTop: "5em" }}>
+      <div className={footerCont}>
         <FooterSection />
       </div>
     </div>

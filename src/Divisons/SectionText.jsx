@@ -10,7 +10,10 @@ const SectionText = () => {
           <strong>Find a technical and non-technical</strong>
           <br />
           <strong style={{ fontSize: "26.4px" }}>
-            <a href="/">co-founder</a> for your startup, idea or{" "}
+            <a href="/" style={{ textDecoration: "none" }}>
+              co-founder
+            </a>{" "}
+            for your startup, idea or
           </strong>
           <br />
 
