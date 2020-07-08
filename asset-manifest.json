@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/clonePage/static/css/main.490a0cd4.chunk.css",
-    "main.js": "/clonePage/static/js/main.da76de61.chunk.js",
-    "main.js.map": "/clonePage/static/js/main.da76de61.chunk.js.map",
+    "main.js": "/clonePage/static/js/main.7d451888.chunk.js",
+    "main.js.map": "/clonePage/static/js/main.7d451888.chunk.js.map",
     "runtime-main.js": "/clonePage/static/js/runtime-main.825c2484.js",
     "runtime-main.js.map": "/clonePage/static/js/runtime-main.825c2484.js.map",
     "static/js/2.579f0a26.chunk.js": "/clonePage/static/js/2.579f0a26.chunk.js",
     "static/js/2.579f0a26.chunk.js.map": "/clonePage/static/js/2.579f0a26.chunk.js.map",
     "index.html": "/clonePage/index.html",
-    "precache-manifest.1e3f3f6b93788757a6462a81fc0800b3.js": "/clonePage/precache-manifest.1e3f3f6b93788757a6462a81fc0800b3.js",
+    "precache-manifest.6bb532e1b330cbc7741ef2c77df4c5ca.js": "/clonePage/precache-manifest.6bb532e1b330cbc7741ef2c77df4c5ca.js",
     "service-worker.js": "/clonePage/service-worker.js",
     "static/css/main.490a0cd4.chunk.css.map": "/clonePage/static/css/main.490a0cd4.chunk.css.map",
     "static/js/2.579f0a26.chunk.js.LICENSE.txt": "/clonePage/static/js/2.579f0a26.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.825c2484.js",
     "static/js/2.579f0a26.chunk.js",
     "static/css/main.490a0cd4.chunk.css",
-    "static/js/main.da76de61.chunk.js"
+    "static/js/main.7d451888.chunk.js"
   ]
 }
