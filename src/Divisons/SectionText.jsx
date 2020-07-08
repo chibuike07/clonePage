@@ -1,6 +1,5 @@
 import React from "react";
 import SectionTextStyle from "./Styles/SectionText.module.css";
-import CustomBottom from "../Componesnts/Button/Button";
 const SectionText = () => {
   const { container, wrapper, section, lorem } = SectionTextStyle;
   return (
@@ -12,7 +11,7 @@ const SectionText = () => {
           <strong style={{ fontSize: "26.4px" }}>
             <a href="/" style={{ textDecoration: "none" }}>
               co-founder
-            </a>{" "}
+            </a>
             for your startup, idea or
           </strong>
           <br />
