@@ -14,7 +14,8 @@ const Parent = () => {
     regWrapper,
     sectionDiv,
     image,
-    bigImg
+    bigImg,
+    splashImage
   } = Styles;
   return (
     <div className={appContainer}>
@@ -38,6 +39,7 @@ const Parent = () => {
 
       <div className={sectionDiv}>
         <SectionText />
+
         <div className={image}>
           <img src={Image} alt={"lady"} />
         </div>
@@ -46,6 +48,9 @@ const Parent = () => {
             <img src={Image} alt={"lady"} />
           </div>
         </div>
+      </div>
+      <div className={splashImage}>
+        <img src={Image} alt={Image} />
       </div>
     </div>
   );
