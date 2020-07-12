@@ -3,7 +3,7 @@ import CustomBotton from "../Componesnts/Button/Button";
 import Styles from "./Styles/SecondSection.module.css";
 import Image from "../Assets/studL1.png";
 const SecondSection = () => {
-  const { sectionCont, splashImage } = Styles;
+  const { container, wrapper, sectionCont, splashImage } = Styles;
   return (
     <div className={container}>
       <div className={wrapper}>
@@ -14,7 +14,7 @@ const SecondSection = () => {
             backgroundColor={"rgb(21, 125, 236)"}
             borderRadius={"5px"}
             color={"rgb(187, 211, 236)"}
-            margin={"0 0 0 6.4vw"}
+            margin={"0 0 0 7.3vw"}
           />
         </div>
         <div className={splashImage}>

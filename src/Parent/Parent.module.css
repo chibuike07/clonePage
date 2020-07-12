@@ -27,9 +27,8 @@
 }
 
 .thirdSection {
-  /* display: flex; */
   width: 100%;
-  /* margin-top: 10px; */
+  margin-top: -10px;
 }
 
 @media only screen and (max-width: 350px) {

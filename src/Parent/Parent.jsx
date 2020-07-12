@@ -24,7 +24,6 @@ const Parent = () => {
       <div className={thirdSection}>
         <SeconSection />
       </div>
-
       <div className={footerCont}>
         <FooterSection />
       </div>

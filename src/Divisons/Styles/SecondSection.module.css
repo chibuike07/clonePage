@@ -1,6 +1,15 @@
+.container {
+  width: inherit;
+  height: inherit;
+}
+.wrapper {
+  width: inherit;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
 .sectionCont {
   width: 50%;
-  height: 10vh;
 }
 
 .splashImage::before {
@@ -8,8 +17,8 @@
   width: 10px;
   height: 0px;
   position: absolute;
-  top: 78.5vh;
-  right: 13px;
+  top: 80.5vh;
+  left: 80.2vw;
   border-color: transparent #ccc transparent transparent;
   border-style: solid;
   border-width: 0px 200px 200px 20px;
