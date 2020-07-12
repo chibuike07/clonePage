@@ -3,9 +3,23 @@
 }
 .wrapper {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 12vh;
+  align-items: center;
+}
+.leftHeaderView {
+  display: flex;
   justify-content: space-evenly;
-  width: 70%;
+  width: 53%;
+  box-sizing: border-box;
+}
+.regWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
   height: 10vh;
+  justify-content: center;
   align-items: center;
 }
 
@@ -31,4 +45,25 @@
   display: flex;
   justify-content: space-evenly;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.menu {
+  /* display: grid; */
+  grid-gap: 5px;
+  display: none;
+}
+.menu div {
+  width: 50px;
+  background-color: #000;
+  height: 5px;
+}
+@media only screen and (max-width: 350px) {
+  .container {
+    background-color: red;
+  }
+  .navBar {
+    display: none;
+  }
+  .menu {
+    display: grid;
+  }
 }

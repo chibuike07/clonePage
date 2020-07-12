@@ -2,3 +2,26 @@
   width: 50%;
   height: 10vh;
 }
+
+.splashImage::before {
+  content: "";
+  width: 10px;
+  height: 0px;
+  position: absolute;
+  top: 78.5vh;
+  right: 13px;
+  border-color: transparent #ccc transparent transparent;
+  border-style: solid;
+  border-width: 0px 200px 200px 20px;
+  transform: rotate(90deg);
+}
+.splashImage {
+  width: 53%;
+}
+.splashImage img {
+  background-color: rgb(0, 0, 255);
+  width: 95%;
+  height: 50vh;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 40px;
+}

@@ -2,7 +2,7 @@
   width: 100%;
   height: 200vh;
   background-color: #fff;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .header::before {
@@ -18,77 +18,22 @@
   display: flex;
   width: 100%;
 }
-.regWrapper {
-  display: flex;
-  flex-direction: row;
-  width: 30%;
-  height: 10vh;
-  justify-content: center;
-  align-items: center;
-}
 
 .sectionDiv {
   display: flex;
-  height: 44vh;
-  align-items: center;
   width: 100%;
-  margin-top: 5vh;
-
+  align-items: center;
   overflow: hidden;
 }
 
-.image {
-  display: flex;
-  position: absolute;
-  left: 48vw;
-  z-index: 3;
-  justify-content: space-between;
-  width: 18%;
-}
-
-.image img {
-  width: 230px;
-  height: 30vh;
-  background-color: rgb(0, 0, 255);
-  border-radius: 20px;
-}
-
-.bigImg {
-  transform: translate(70%, -13%);
-}
-.bigImg img {
-  background-color: rgb(0, 0, 255);
-  border-radius: 30px;
-  border-top-right-radius: 0;
-  border-top-right-radius: 0;
-  width: 30vw;
-  height: 35vh;
-}
-
 .thirdSection {
-  display: flex;
+  /* display: flex; */
   width: 100%;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
-.splashImage::before {
-  content: "";
-  width: 10px;
-  height: 0px;
-  position: absolute;
-  top: 78.5vh;
-  right: 13px;
-  border-color: transparent #ccc transparent transparent;
-  border-style: solid;
-  border-width: 0px 200px 200px 20px;
-  transform: rotate(90deg);
-}
-.splashImage {
-  width: 53%;
-}
-.splashImage img {
-  background-color: rgb(0, 0, 255);
-  width: 95%;
-  height: 50vh;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 40px;
+
+@media only screen and (max-width: 350px) {
+  .splashImage {
+    background-color: red;
+  }
 }
