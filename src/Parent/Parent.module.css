@@ -1,8 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  image-rendering: auto;
+}
+
 .appContainer {
   width: 100%;
-  height: 200vh;
+  height: 100%;
   background-color: #fff;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .header::before {
@@ -29,6 +37,9 @@
 .thirdSection {
   width: 100%;
   margin-top: -10px;
+}
+.footerCont {
+  width: 100%;
 }
 
 @media only screen and (max-width: 350px) {

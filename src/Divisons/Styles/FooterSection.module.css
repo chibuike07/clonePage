@@ -3,6 +3,7 @@
 }
 
 .wrapper {
+  width: inherit;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -10,9 +11,11 @@
 
 .section {
   width: 50%;
+  margin-top: 10vh;
 }
 .pairedImage {
   display: flex;
+
   justify-content: space-evenly;
   width: 70%;
   transform: rotate(35deg);
@@ -50,6 +53,7 @@
 }
 .divC {
   transform: rotate(38deg);
+  background-color: transparent;
 }
 
 .C {
