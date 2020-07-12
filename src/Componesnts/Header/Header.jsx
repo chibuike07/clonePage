@@ -13,8 +13,10 @@ const Header = () => {
     logoImage,
     spanText,
     navBar,
-    leftHeaderView
-    // menu
+    signUp,
+    logIn,
+    leftHeaderView,
+    menu
   } = styles;
   return (
     <div className={container}>
@@ -40,19 +42,17 @@ const Header = () => {
           </div>
         </div>
         <div className={regWrapper}>
-          <CustomButton
-            text={"Log In"}
-            backgroundColor={"inherit"}
-            color={"rgb(17, 125, 236)"}
-            width={"100px"}
-          />
+          <CustomButton text={"Log In"} className={logIn} color={"#ccc"} />
           <CustomButton
             text={"Sign Up"}
             color={"rgb(187, 211, 236)"}
-            width={"100px"}
-            borderRadius={"5px"}
-            backgroundColor={"rgb(21, 125, 236)"}
+            className={signUp}
           />
+        </div>
+        <div className={menu}>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
       </div>
     </div>

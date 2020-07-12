@@ -10,7 +10,14 @@
 .sectionCont {
   width: 50%;
 }
-
+.sectionCont .button {
+  width: 12vw;
+  background-color: rgb(21, 125, 236);
+  border-radius: 5px;
+  color: rgb(187, 211, 236);
+  margin: 0 0 0 7.3vw;
+  height: 5vh;
+}
 .splashImage::before {
   content: "";
   width: 10px;
@@ -32,4 +39,17 @@
   height: 50vh;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 40px;
+}
+
+@media only screen and (max-width: 350px) {
+  .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-color: red;
+  }
+  .sectionCont .button {
+    width: 40vw;
+    border-radius: 5px;
+  }
 }

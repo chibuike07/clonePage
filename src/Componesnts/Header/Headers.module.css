@@ -14,15 +14,6 @@
   width: 53%;
   box-sizing: border-box;
 }
-.regWrapper {
-  display: flex;
-  flex-direction: row;
-  width: 30%;
-  height: 10vh;
-  justify-content: center;
-  align-items: center;
-}
-
 .logoContainer {
   display: flex;
   justify-content: space-evenly;
@@ -33,6 +24,29 @@
   width: 50;
   height: 3vh;
   margin-right: 2px;
+}
+
+.regWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+.logIn {
+  width: 100px;
+  height: 5vh;
+  border-radius: 5px;
+  background-color: inherit;
+  border: none;
+}
+.signUp {
+  width: 100px;
+  border-radius: 5px;
+  background-color: rgb(21, 125, 236);
+  height: 5vh;
+  border: none;
 }
 .spanText {
   color: rgb(17, 125, 236);
@@ -47,7 +61,6 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .menu {
-  /* display: grid; */
   grid-gap: 5px;
   display: none;
 }
@@ -57,13 +70,27 @@
   height: 5px;
 }
 @media only screen and (max-width: 350px) {
-  .container {
+  .wrapper {
     background-color: red;
+    height: 20vh;
   }
   .navBar {
     display: none;
   }
+  .regWrapper {
+    transform: translate(-70%, 70%);
+  }
+  .logIn {
+    width: 50px;
+  }
+  .signUp {
+    width: 50px;
+    font-size: 12px;
+    font-weight: bolder;
+  }
   .menu {
     display: grid;
+    margin-right: 7px;
+    justify-content: flex-start;
   }
 }

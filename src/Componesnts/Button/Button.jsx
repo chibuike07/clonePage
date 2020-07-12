@@ -21,7 +21,7 @@ const Button = ({
   <div className="button">
     <button
       style={{
-        backgroundColor: backgroundColor ? backgroundColor : "red",
+        backgroundColor: backgroundColor ? backgroundColor : null,
         color: color ? color : "#fff",
         width: width ? width : null,
         outline: outline ? outline : null,

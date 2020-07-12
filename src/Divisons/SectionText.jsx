@@ -10,16 +10,20 @@ const SectionText = () => {
     lorem,
     image,
     bigImg,
-    leftSectionWrapper
+    leftSectionWrapper,
+    firstText,
+    secText
   } = SectionTextStyle;
   return (
     <div className={container}>
       <div className={wrapper}>
         <div className={leftSectionWrapper}>
           <section className={section}>
-            <strong>Find a technical and non-technical</strong>
+            <strong className={firstText}>
+              Find a technical and non-technical
+            </strong>
             <br />
-            <strong style={{ fontSize: "26.4px" }}>
+            <strong className={secText}>
               <b style={{ color: "blue" }}>co-founder</b> for your startup, idea
               or
             </strong>
