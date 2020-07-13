@@ -43,10 +43,9 @@ const SectionText = () => {
         <div className={image}>
           <img src={Image} alt={"lady"} />
         </div>
-        <div>
-          <div className={bigImg}>
-            <img src={Image} alt={"lady"} />
-          </div>
+
+        <div className={bigImg}>
+          <img src={Image} alt={"lady"} />
         </div>
       </div>
     </div>

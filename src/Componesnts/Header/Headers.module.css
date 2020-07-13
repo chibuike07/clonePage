@@ -93,3 +93,22 @@
     margin-right: 7px;
   }
 }
+
+@media only screen and (min-width: 350px) {
+  .leftHeaderView {
+    justify-content: space-between;
+  }
+  .logoContainer {
+    margin-left: 15%;
+  }
+  .logoImage {
+    height: 0.8em;
+  }
+  .regWrapper {
+    justify-content: flex-start;
+  }
+  .menu {
+    justify-content: flex-start;
+    transform: translate(-90%, 20%);
+  }
+}

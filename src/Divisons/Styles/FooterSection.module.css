@@ -107,3 +107,21 @@ aside {
     padding: 10px;
   }
 }
+
+@media only screen and (min-width: 350px) {
+  .pairedImage {
+    /* background-color: brown; */
+    margin-top: 20%;
+    width: 100%;
+  }
+  .A {
+    height: 15em;
+  }
+  .B {
+    transform: translate(0%, 10%);
+  }
+  .C {
+    transform: translate(-30%, 35%);
+    background-color: blue;
+  }
+}

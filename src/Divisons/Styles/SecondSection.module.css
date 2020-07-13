@@ -73,3 +73,16 @@
     width: 80%;
   }
 }
+
+@media only screen and (min-width: 350px) {
+  .sectionCont .button {
+    margin-top: 5%;
+  }
+  .splashImage img {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .splashImage::before {
+    display: none;
+  }
+}
