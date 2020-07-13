@@ -15,7 +15,6 @@
 }
 .pairedImage {
   display: flex;
-
   justify-content: space-evenly;
   width: 70%;
   transform: rotate(35deg);
@@ -82,4 +81,29 @@ aside {
 .asidecont h4 {
   font-size: 13px;
   color: rgb(17, 28, 99);
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    margin-top: 15px;
+  }
+  .wrapper {
+    flex-direction: column-reverse;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .pairedImage img {
+    width: 50%;
+    margin-top: 10vh;
+  }
+  aside {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+  }
 }

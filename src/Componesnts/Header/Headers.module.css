@@ -69,10 +69,10 @@
   background-color: #000;
   height: 5px;
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 500px) {
   .wrapper {
-    background-color: red;
     height: 20vh;
+    align-items: center;
   }
   .navBar {
     display: none;
@@ -91,6 +91,5 @@
   .menu {
     display: grid;
     margin-right: 7px;
-    justify-content: flex-start;
   }
 }

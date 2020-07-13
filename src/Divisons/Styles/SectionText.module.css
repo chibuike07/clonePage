@@ -61,7 +61,7 @@
   height: 40vh;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 500px) {
   .wrapper {
     flex-direction: column;
   }
@@ -78,7 +78,6 @@
     font-size: 1.3em;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
-    /* background-color: red; */
   }
   .firstText {
     font-size: 0.7em;
@@ -97,13 +96,14 @@
     justify-content: center;
   }
   .image img {
-    width: 100%;
+    width: 90%;
   }
   .bigImg {
-    transform: translate(60%, 10%);
+    transform: translate(60%, 0%);
+    width: 50%;
   }
   .bigImg img {
     width: 50vw;
-    height: 40vh;
+    height: 35vh;
   }
 }
