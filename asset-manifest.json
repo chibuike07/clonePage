@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/clonePage/static/css/main.bae543fb.chunk.css",
-    "main.js": "/clonePage/static/js/main.63f0f84c.chunk.js",
-    "main.js.map": "/clonePage/static/js/main.63f0f84c.chunk.js.map",
+    "main.css": "/clonePage/static/css/main.90b0b84f.chunk.css",
+    "main.js": "/clonePage/static/js/main.67ab3ff2.chunk.js",
+    "main.js.map": "/clonePage/static/js/main.67ab3ff2.chunk.js.map",
     "runtime-main.js": "/clonePage/static/js/runtime-main.825c2484.js",
     "runtime-main.js.map": "/clonePage/static/js/runtime-main.825c2484.js.map",
     "static/js/2.5da80776.chunk.js": "/clonePage/static/js/2.5da80776.chunk.js",
     "static/js/2.5da80776.chunk.js.map": "/clonePage/static/js/2.5da80776.chunk.js.map",
     "index.html": "/clonePage/index.html",
-    "precache-manifest.c842b16c7e47c1f47863b5eb9ff00ad9.js": "/clonePage/precache-manifest.c842b16c7e47c1f47863b5eb9ff00ad9.js",
+    "precache-manifest.e28ef46272c0f824e23f301a5eb7f736.js": "/clonePage/precache-manifest.e28ef46272c0f824e23f301a5eb7f736.js",
     "service-worker.js": "/clonePage/service-worker.js",
-    "static/css/main.bae543fb.chunk.css.map": "/clonePage/static/css/main.bae543fb.chunk.css.map",
+    "static/css/main.90b0b84f.chunk.css.map": "/clonePage/static/css/main.90b0b84f.chunk.css.map",
     "static/js/2.5da80776.chunk.js.LICENSE.txt": "/clonePage/static/js/2.5da80776.chunk.js.LICENSE.txt",
     "static/media/studL1.png": "/clonePage/static/media/studL1.61546251.png"
   },
   "entrypoints": [
     "static/js/runtime-main.825c2484.js",
     "static/js/2.5da80776.chunk.js",
-    "static/css/main.bae543fb.chunk.css",
-    "static/js/main.63f0f84c.chunk.js"
+    "static/css/main.90b0b84f.chunk.css",
+    "static/js/main.67ab3ff2.chunk.js"
   ]
 }
